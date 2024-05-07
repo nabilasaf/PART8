@@ -24,4 +24,9 @@ class segitiga
        int hitung(persegiPanjang p){
            return p.panjang;
        }
+};
+
+int main()
+{
+    
 }
