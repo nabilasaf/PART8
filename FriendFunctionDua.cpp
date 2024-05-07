@@ -9,3 +9,12 @@ class manusia
       void showNilaiPelajar(pelajar &x);
 };
 
+class pelajar
+{
+    private:
+      int nilai;
+
+    public:
+       pelajar() {nilai = 100; }
+       friend void manusia::showNilaiPelajaran(pelajar &x);
+};
