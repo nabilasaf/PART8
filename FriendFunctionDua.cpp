@@ -2,24 +2,10 @@
 #include <string>
 using namespace std;
 
-class mahasiswa
+class pelajar;
+class manusia
 {
-    private:
-      string nama;
-
     public:
-        friend void setNama(mahasiswa &a, string);
+      void showNilaiPelajar(pelajar &x);
 };
 
-void setNama(mahasiswa &a, string b)
-{
-    a.nama = b;
-    cout << a.nama;
-}
-
-int main()
-{
-    mahasiswa joko;
-    setNama(joko, "Kairi Kumar");
-    return 0;
-}
