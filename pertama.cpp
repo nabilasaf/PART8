@@ -11,7 +11,7 @@ class peersegiPanjang
     }
 };
 
-class segitiga ()
+class segitiga 
 {
-
+    public:
 }
