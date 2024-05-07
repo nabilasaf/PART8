@@ -16,5 +16,5 @@ class pelajar
 
     public:
        pelajar() {nilai = 100; }
-       friend void manusia::showNilaiPelajaran(pelajar &x);
+       friend void manusia::showNilaiPelajar(pelajar &x);
 };
