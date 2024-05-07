@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-class peersegiPanjang
+class persegiPanjang
 {
     public:
     int panjang, lebar;
